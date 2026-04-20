@@ -19,9 +19,9 @@
     "Windows"
   ],
   "installinstructions": {
-    "Linux": "Copy the entire `binja_plugin` folder into `~/.binaryninja/plugins/` and restart Binary Ninja.",
-    "Darwin": "Copy the entire `binja_plugin` folder into `~/Library/Application Support/Binary Ninja/plugins/` and restart Binary Ninja.",
-    "Windows": "Copy the entire `binja_plugin` folder into `%APPDATA%\\Binary Ninja\\plugins\\` and restart Binary Ninja."
+    "Linux": "Copy this repository folder (or clone) into `~/.binaryninja/plugins/bn-pwndbg-sync/` and restart Binary Ninja.",
+    "Darwin": "Copy this repository folder into `~/Library/Application Support/Binary Ninja/plugins/bn-pwndbg-sync/` and restart Binary Ninja.",
+    "Windows": "Copy this repository folder into `%APPDATA%\\Binary Ninja\\plugins\\bn-pwndbg-sync\\` and restart Binary Ninja."
   },
   "dependencies": {},
   "version": "0.1.0",
