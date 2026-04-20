@@ -1,0 +1,30 @@
+{
+  "pluginmetadataversion": 2,
+  "name": "Pwndbg RPC Sync",
+  "type": [
+    "helper"
+  ],
+  "api": [
+    "python3"
+  ],
+  "description": "XML-RPC bridge for pwndbg/GDB live BN analysis",
+  "longdescription": "Starts a localhost XML-RPC server on the active BinaryView so external debuggers (pwndbg/GDB) can query decompilation, IL levels, call trees, and symbol resolution in real time.\n\n**Usage:** Plugins → Pwndbg Sync → Start XML-RPC Server, then pair with the pwndbg extension from the same project repository (default endpoint `http://127.0.0.1:31337`).\n\n**Author:** nyxFault",
+  "license": {
+    "name": "MIT",
+    "text": "MIT License\n\nCopyright (c) 2026 nyxFault\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+  },
+  "platforms": [
+    "Linux",
+    "Darwin",
+    "Windows"
+  ],
+  "installinstructions": {
+    "Linux": "Copy the entire `binja_plugin` folder into `~/.binaryninja/plugins/` and restart Binary Ninja.",
+    "Darwin": "Copy the entire `binja_plugin` folder into `~/Library/Application Support/Binary Ninja/plugins/` and restart Binary Ninja.",
+    "Windows": "Copy the entire `binja_plugin` folder into `%APPDATA%\\Binary Ninja\\plugins\\` and restart Binary Ninja."
+  },
+  "dependencies": {},
+  "version": "0.1.0",
+  "author": "nyxFault",
+  "minimumbinaryninjaversion": 3164
+}
