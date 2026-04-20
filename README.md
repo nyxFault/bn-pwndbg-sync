@@ -21,12 +21,6 @@ Copy this entire folder into Binary Ninja’s user plugin directory and restart 
 | macOS | `~/Library/Application Support/Binary Ninja/plugins/` |
 | Windows | `%APPDATA%\Binary Ninja\plugins\` |
 
-Or symlink, for example:
-
-```bash
-ln -s "$(pwd)" ~/.binaryninja/plugins/bn-pwndbg-sync
-```
-
 ## Usage
 
 1. Open your binary in Binary Ninja.
